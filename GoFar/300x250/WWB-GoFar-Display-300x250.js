@@ -678,11 +678,11 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD3
 	this.instance_1 = new lib.HEAD3();
-	this.instance_1.setTransform(382.45,62,1,1,0,0,0,78.7,50);
+	this.instance_1.setTransform(286.45,62,1,1,0,0,0,78.7,50);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(34).to({_off:false},0).to({x:286.45,alpha:1},14,cjs.Ease.quintOut).wait(112).to({alpha:0},13).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(34).to({_off:false},0).to({alpha:1},14,cjs.Ease.quintOut).wait(112).to({alpha:0},13).wait(2));
 
 	// SUBHEAD
 	this.instance_2 = new lib.SUBHEAD();
@@ -690,7 +690,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(71).to({_off:false},0).to({x:286.45,alpha:1},14,cjs.Ease.quintOut).wait(75).to({x:282.7},0).to({alpha:0},13).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(71).to({_off:false},0).to({x:286.45,alpha:1},14,cjs.Ease.quintOut).wait(75).to({alpha:0},13).wait(2));
 
 	// CTA
 	this.instance_3 = new lib.CTA();
@@ -725,7 +725,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-3.7,33,414.09999999999997,517.9);
+p.nominalBounds = new cjs.Rectangle(-3.7,33,391.4,517.9);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
