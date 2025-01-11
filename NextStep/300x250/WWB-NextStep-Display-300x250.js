@@ -602,11 +602,11 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD2
 	this.instance_1 = new lib.HEAD2();
-	this.instance_1.setTransform(378.7,162,1,1,0,0,0,78.7,50);
+	this.instance_1.setTransform(282.7,162,1,1,0,0,0,78.7,50);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(47).to({_off:false},0).to({x:282.7,alpha:1},14,cjs.Ease.quintOut).wait(99).to({alpha:0},13).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(47).to({_off:false},0).to({alpha:1},14,cjs.Ease.quintOut).wait(99).to({alpha:0},13).wait(2));
 
 	// SUBHEAD
 	this.instance_2 = new lib.SUBHEAD();
@@ -649,7 +649,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-12,-10,402.1,442.3);
+p.nominalBounds = new cjs.Rectangle(-12,43.6,402.1,388.7);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
