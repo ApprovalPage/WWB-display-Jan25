@@ -610,11 +610,11 @@ if (reversed == null) { reversed = false; }
 
 	// SUBHEAD
 	this.instance_2 = new lib.SUBHEAD();
-	this.instance_2.setTransform(294.55,516,1.2,1.2,0,0,0,78.8,26.1);
+	this.instance_2.setTransform(306.45,516.9,1.32,1.32,0,0,0,78.8,26.1);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(71).to({_off:false},0).to({x:244.55,alpha:1},14,cjs.Ease.quintOut).wait(75).to({alpha:0},13).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(71).to({_off:false},0).to({x:254,alpha:1},14,cjs.Ease.quintOut).wait(75).to({alpha:0},13).wait(2));
 
 	// CTA
 	this.instance_3 = new lib.CTA();
