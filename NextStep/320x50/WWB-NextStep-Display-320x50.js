@@ -533,15 +533,15 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD
 	this.instance = new lib.HEAD();
-	this.instance.setTransform(240.55,37.5,0.77,0.77,0,0,0,78.7,50);
+	this.instance.setTransform(230.55,37.5,0.77,0.77,0,0,0,78.7,50);
 	this.instance.alpha = 0;
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).to({regX:78.8,x:166.65,alpha:1},14,cjs.Ease.quintOut).to({_off:true},104).wait(110));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({_off:false},0).to({regX:78.8,x:156.65,alpha:1},14,cjs.Ease.quintOut).to({_off:true},104).wait(110));
 
 	// HEAD2
 	this.instance_1 = new lib.HEAD2();
-	this.instance_1.setTransform(289.85,62.1,0.77,0.77,0,0,0,78.8,50);
+	this.instance_1.setTransform(279.85,62.1,0.77,0.77,0,0,0,78.8,50);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
@@ -574,13 +574,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_4.setTransform(471,-235.05,1,1,0,0,0,178,99);
 
 	this.instance_5 = new lib.HEADbkgd();
-	this.instance_5.setTransform(145.05,59.95,1,1,0,0,0,178,99);
+	this.instance_5.setTransform(127.05,59.95,1,1,0,0,0,178,99);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5,p:{x:145.05}},{t:this.instance_4,p:{x:471}}]}).to({state:[{t:this.instance_5,p:{x:45.05}},{t:this.instance_4,p:{x:371}}]},119).wait(110));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5,p:{x:127.05}},{t:this.instance_4,p:{x:471}}]}).to({state:[{t:this.instance_5,p:{x:45.05}},{t:this.instance_4,p:{x:371}}]},119).wait(110));
 
 	// PIC
 	this.instance_6 = new lib.PIC();
-	this.instance_6.setTransform(-1.95,-22,0.8366,0.8366);
+	this.instance_6.setTransform(-2,-17,0.5927,0.5927,0,0,0,-0.1,0);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).to({_off:true},119).wait(110));
 
